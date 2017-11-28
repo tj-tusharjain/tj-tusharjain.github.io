@@ -403,7 +403,7 @@ ul.headwork li {
 } */
 
 .contactme {
-    height: 50%;
+    height: auto;
     width: 100%;
     margin: auto;
     background: rgb(31, 31, 31) no-repeat 50% 50%;
@@ -411,6 +411,7 @@ ul.headwork li {
     top: 0;
     background-size: cover;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .contactme .headwork {
