@@ -88,7 +88,7 @@ html, body {
 }
 
 .matter {
-    height: 50%;
+    height: auto;
     width: 100%;
     margin: auto;
     background: rgb(255, 255, 255) no-repeat 50% 50%;
@@ -119,7 +119,7 @@ html, body {
 }
 
 .skills {
-    height: 50%;
+    height: auto;
     width: 100%;
     margin: auto;
     background: rgb(31, 31, 31) no-repeat 50% 50%;
@@ -153,7 +153,8 @@ ul.a {
     list-style-type: circle;
     color: rgb(0, 0, 0); 
     text-align: center;
-    padding-top: 70px;
+    padding-top: 50px;
+    padding-bottom: 20px;
     
     
 }
@@ -174,13 +175,15 @@ ul.a li {
 }
 
 .projects {
-    height: 135%;
+    height: auto;
     width: 100%;
     margin: auto;
     background: rgb(255, 255, 255) no-repeat 50% 50%;
     display: table;
     top: 0;
     background-size: cover;
+    align-content: center;
+    padding-bottom: 45px;
 }
 
 
@@ -200,6 +203,7 @@ ul.projects1 li {
     border-bottom: solid rgb(32, 53, 211);
     padding-bottom: 5px;
     padding-top: 30px;
+    align-items: center;
 
 }
 
@@ -209,6 +213,7 @@ ul.projects1 li {
     max-width: 85%;
     border: rgb(235, 235, 235);
     border-radius: 30px;
+    box-shadow: 1.5px 1.5px 1.5px rgb(172, 172, 172);
     text-align: center;
     margin-top: 3%;
     margin-left: 7.5%;
@@ -262,6 +267,7 @@ ul.projects1 li {
     max-width: 85%;
     border: rgb(235, 235, 235);
     border-radius: 30px;
+    box-shadow: 1.5px 1.5px 1.5px rgb(172, 172, 172);
     text-align: center;
     margin-top: 3%;
     margin-left: 7.5%;
@@ -301,7 +307,12 @@ ul.projects1 li {
     border-radius: 9px;
 }
 
-
+.project_2 .link1:hover {
+    border: solid rgb(40, 114, 146) 2px;
+    color: rgb(40, 114, 146);
+    transition: all 0.5s;
+    
+}
 
 
 .projects .project_3 {
@@ -310,18 +321,14 @@ ul.projects1 li {
     max-width: 85%;
     border: rgb(235, 235, 235);
     border-radius: 30px;
+    box-shadow: 1.5px 1.5px 1.5px rgb(172, 172, 172);
     text-align: center;
     margin-top: 3%;
     margin-left: 7.5%;
     background: rgb(202, 231, 255);
 }
 
-.project_2 .link1:hover {
-    border: solid rgb(40, 114, 146) 2px;
-    color: rgb(40, 114, 146);
-    transition: all 0.5s;
-    
-}
+
 
 .project_3 h4 {
     font-size:  200%;
