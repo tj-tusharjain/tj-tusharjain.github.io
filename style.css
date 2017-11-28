@@ -80,13 +80,14 @@ html, body {
     text-decoration: none;
     border: solid rgb(196,201,199);
     padding: 7px 15px;
-    border-radius: 9px;
+    border-radius: 30px;
 
 }
 .btn:hover{
-    color: rgb(68, 121, 173);
-    border: solid rgb(68, 121, 173) 2px;
-    transition: all 0.5s;
+    color: rgb(136, 178, 240);
+    border: solid rgb(255, 255, 255) ;
+    background: white;
+    transition: all 1.1s;
 }
 
 .matter {
