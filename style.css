@@ -93,7 +93,7 @@ html, body {
     height: auto;
     width: 100%;
     margin: auto;
-    background: rgb(255, 255, 255) no-repeat 50% 50%;
+    background: url("section_light.jpg") no-repeat 50% 50%;
     display: table;
     top: 0;
     background-size: cover;
@@ -111,6 +111,7 @@ html, body {
 
 .content_matter .para {
     padding-top: 35px;
+    text-shadow: .2px .2px .2px rgb(165, 165, 165);
     
 }
 
@@ -191,7 +192,7 @@ ul.a li:hover {
     height: auto;
     width: 100%;
     margin: auto;
-    background: rgb(255, 255, 255) no-repeat 50% 50%;
+    background: url("section_light.jpg") no-repeat 50% 50%;
     display: table;
     top: 0;
     background-size: cover;
@@ -230,7 +231,7 @@ ul.projects1 li {
     text-align: center;
     margin-top: 3%;
     margin-left: 7.5%;
-    background: rgb(202, 231, 255);
+    background: rgba(110, 170, 243, 0.589);
 }
 
 .project_1 h4 {
@@ -284,7 +285,7 @@ ul.projects1 li {
     text-align: center;
     margin-top: 3%;
     margin-left: 7.5%;
-    background: rgb(202, 231, 255);
+    background: rgba(110, 170, 243, 0.589);
 }
 
 .project_2 h4 {
@@ -338,7 +339,7 @@ ul.projects1 li {
     text-align: center;
     margin-top: 3%;
     margin-left: 7.5%;
-    background: rgb(202, 231, 255);
+    background: rgba(110, 170, 243, 0.589);
 }
 
 
