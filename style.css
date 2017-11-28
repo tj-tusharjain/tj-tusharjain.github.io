@@ -619,6 +619,19 @@ footer p {
 
 /*--- Media Queries --*/
 @media screen and (max-width: 900px) {
+    .content h1{
+        font-size: 250%;
+        padding-bottom: 3px;
+    }
+
+    .content p{
+        font-size: 120%;
+    }
+
+    .content .school p {
+        font-size: 90%;
+    }
+        
 
 }
 @media screen and (max-width: 768px) {
