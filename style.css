@@ -173,33 +173,27 @@ ul.head1 li {
 }
 
 ul.a {
-    font-size: 20px;
-    list-style-type: circle;
-    color: rgb(0, 0, 0); 
+    font-size: 50px;
+    list-style-type: circle; 
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 10px;
     
     
 }
 
 ul.a li {
-    padding: 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500%;
     display: inline;
-    border:  rgb(201, 200, 200);
-    border-radius: 18px;
-    background: rgb(240, 240, 240);
     margin-left: 1%;
-    box-shadow: 3px 3px 3px #000000;
     
 
 
 }
 
-ul.a li:hover {
-    background: rgb(167, 202, 255);
+ul.a li:hover{
+    color: cornflowerblue;
     transition: 0.9s;
 }
 
@@ -399,43 +393,63 @@ ul.projects1 li {
     
 }
 
-/* .work {
-    height: 70%;
-    width: 100%;
-    margin: auto;
-    background: rgb(31, 31, 31) no-repeat 50% 50%;
-    display: table;
-    top: 0;
-    background-size: cover;
-}
+.coursework {
 
-.head_work .headwork {
+        height: auto;
+        width: 100%;
+        margin: auto;
+        background: rgb(31, 31, 31) no-repeat 50% 50%;
+        display: table;
+        top: 0;
+        background-size: cover;
+        align-content: center;
+        padding-bottom: 45px;
+    }
+
+.coursework .course_head {
+        font-family: 'Raleway', sans-serif;
+        color: rgb(255, 255, 255); 
+        list-style-type: none;
+        list-style: none;
+        text-align: center;
+        padding-top: 25px;
     
-    color: rgb(255, 255, 255); 
-    list-style-type: none;
-    list-style: none;
-    text-align: center;
-    padding-top: 25px;
 }
 
-ul.headwork li {
-    font-family: 'Raleway', sans-serif;
+ul.heading_course li {
     font-size: 30px;
     display: inline;
     border-bottom: solid rgb(255, 255, 255);
-    color: white;
     padding-bottom: 5px;
     padding-top: 30px;
-    text-align: center;
-    align-content: center;
+    align-items: center;
 
-} */
+}
+
+ul.courses {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 35%;
+    margin-right: 32%;
+    border: solid white;
+    border-radius: 30px;
+    background:rgb(255, 255, 255);
+    box-shadow: 5px 5px rgb(44, 114, 179);
+    padding: 2px;
+}
+
+ul.courses li {
+    color: black;
+    margin-bottom: 2%;
+    padding: 1.5%;
+    
+}
 
 .contactme {
     height: auto;
     width: 100%;
     margin: auto;
-    background: rgb(31, 31, 31) no-repeat 50% 50%;
+    background: url("section_light.jpg") no-repeat 50% 50%;
     display: table;
     top: 0;
     background-size: cover;
@@ -445,7 +459,7 @@ ul.headwork li {
 
 .contactme .headwork {
     
-    color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0); 
     list-style-type: none;
     list-style: none;
     text-align: center;
@@ -456,8 +470,8 @@ ul.headwork li {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     display: inline;
-    border-bottom: solid rgb(255, 255, 255);
-    color: white;
+    border-bottom: solid rgb(0, 140, 255);
+    color: rgb(0, 0, 0);
     padding-bottom: 5px;
     padding-top: 15px;
     text-align: center;
@@ -475,7 +489,7 @@ ul.headwork li {
 
   .mail-message{
     width: 60%;
-    background:rgba(255,255,255, 0.8) !important;
+    background:rgba(42, 195, 255, 0.8) !important;
     -webkit-transition: all 0.7s;
     -moz-transition: all 0.7s;
     transition: all 0.7s;
@@ -501,8 +515,8 @@ ul.headwork li {
     width: 50%;
     padding: 10px;
     border-radius: 10px;
-    background:#f8f8f8;
-    border:1px solid rgba(0, 0, 0, 0.075);
+    background:#ffffff;
+    border:3px solid rgba(0, 0, 0, 0.075);
     margin-bottom:5px;
     color:#727272 !important;
     font-size:13px;
@@ -512,7 +526,7 @@ ul.headwork li {
   }
 
   .form:hover{
-    border:1px solid rgb(90, 167, 219);
+    border:3px solid rgb(0, 60, 138);
   }
 
   .form:focus{
@@ -645,6 +659,50 @@ footer p {
     .content .school p {
         font-size: 90%;
     }
+
+    ul.head1 li {
+        font-size: 22px;
+        display: inline;
+        border-bottom: solid rgb(231, 231, 231);
+        padding-bottom: 5px;
+        padding-top: 30px;
+        padding-right: 10px;
+    
+    }
+
+    ul.a {
+        padding-right: 25px;
+        
+    
+    
+    }
+
+    ul.projects1 li {
+        font-size: 22px;
+        padding-right: 5px;
+    
+    }
+
+    ul.courses {
+        font-size: 12px;
+        list-style-type: none;
+        text-align: left;
+        margin-left: 15%;
+        margin-right: 12%;
+        border: solid white;
+        border-radius: 30px;
+        background:rgb(255, 255, 255);
+        box-shadow: 5px 5px rgb(44, 114, 179);
+        padding: 2px;
+    }
+    
+    ul.courses li {
+        color: black;
+        margin-bottom: 2%;
+        padding: 1.5%;
+        
+    }
+
         
 
 }
