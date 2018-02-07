@@ -24,20 +24,12 @@
       ],
       "directions": [
         {
-          "directionName": "West",
-          "room": "MatthewsStreet"
-        },
-        {
           "directionName": "Northeast",
-          "room": "AcmOffice"
+          "room": "ISRWardall"
         },
         {
           "directionName": "North",
-          "room": "SiebelNorthHallway"
-        },
-        {
-          "directionName": "East",
-          "room": "SiebelEastHallway"
+          "room": "ISRLobby"
         }
       ]
     },
@@ -51,7 +43,7 @@
       "directions": [
         {
           "directionName": "South",
-          "room": "SiebelEntry"
+          "room": "ISRFrontDesk"
         }
       ]
     },
