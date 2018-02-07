@@ -6,7 +6,9 @@
       "name": "EastJohnStreet",
       "description": "You are on john street, outside the ISR",
       "items": [
-        "coin"
+        "coin",
+        "usb-c cable",
+        "GloVe"
       ],
       "directions": [
         {
