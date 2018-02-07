@@ -1,23 +1,23 @@
 {
-  "startingRoom": "MatthewsStreet",
-  "endingRoom": "Siebel1314",
+  "startingRoom": "EastJohnStreet",
+  "endingRoom": "ISRLobby",
   "rooms": [
     {
-      "name": "MatthewsStreet",
-      "description": "You are on Matthews, outside the Siebel Center",
+      "name": "EastJohnStreet",
+      "description": "You are on john street, outside the ISR",
       "items": [
         "coin"
       ],
       "directions": [
         {
           "directionName": "East",
-          "room": "SiebelEntry"
+          "room": "ISRFrontDesk"
         }
       ]
     },
     {
-      "name": "SiebelEntry",
-      "description": "You are in the west entry of Siebel Center.  You can see the elevator, the ACM office, and hallways to the north and east.",
+      "name": "ISRFrontDesk",
+      "description": "You are in the west entry of ISR.  You can see the elevator, the ACM office, and hallways to the north and east.",
       "items": [
         "sweatshirt",
         "key"
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "name": "AcmOffice",
+      "name": "ISRWardall",
       "description": "You are in the ACM office.  There are lots of friendly ACM people.",
       "items": [
         "pizza",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "SiebelNorthHallway",
+      "name": "ISRLobby",
       "description": "You are in the north hallway.  You can see Siebel 1112 and the door toward NCSA.",
       "directions": [
         {
