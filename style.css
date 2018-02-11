@@ -108,7 +108,7 @@ html, body {
     height: auto;
     width: 100%;
     margin: auto;
-    background: url("section_light.jpg") no-repeat 50% 50%;
+    background: white no-repeat 50% 50%;
     display: table;
     top: 0;
     background-size: cover;
@@ -201,7 +201,7 @@ ul.a li:hover{
     height: auto;
     width: 100%;
     margin: auto;
-    background: url("section_light.jpg") no-repeat 50% 50%;
+    background: white no-repeat 50% 50%;
     display: table;
     top: 0;
     background-size: cover;
@@ -449,7 +449,7 @@ ul.courses li {
     height: auto;
     width: 100%;
     margin: auto;
-    background: url("section_light.jpg") no-repeat 50% 50%;
+    background: white no-repeat 50% 50%;
     display: table;
     top: 0;
     background-size: cover;
