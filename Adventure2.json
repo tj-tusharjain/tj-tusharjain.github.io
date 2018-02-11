@@ -49,7 +49,16 @@
     {
       "name": "MatthewsStreet",
       "description": "You are on Matthews, outside the Siebel Center",
-      "items": ["coin"],
+      "items": [
+        {
+          "name": "sword",
+          "damage": "10.0"
+        },
+        {
+          "name": "knife",
+          "damage": "5.0"
+        }
+      ],
       "monstersInRoom": ["Shrek","Joker","Penguin"],
       "directions": [
         {
@@ -61,7 +70,17 @@
     {
       "name": "SiebelEntry",
       "description": "You are in the west entry of Siebel Center.  You can see the elevator, the ACM office, and hallways to the north and east.",
-      "items": ["sweatshirt", "key"],
+      "items": [
+        {
+          "name": "AK47",
+          "damage": "30.0"
+          },
+          {
+            "name": "pistol",
+            "damage": "20.0"
+
+          }
+        ],
       "monstersInRoom": ["Demagorgon"],
       "directions": [
         {
@@ -85,7 +104,16 @@
     {
       "name": "AcmOffice",
       "description": "You are in the ACM office.  There are lots of friendly ACM people.",
-      "items": ["pizza", "swag"],
+      "items": [
+        {
+          "name": "pen",
+          "damage": "2.0"
+        },
+        {
+          "name": "stick",
+          "damage": "5.0"
+        }
+      ],
       "monstersInRoom": ["Thanos","Penguin"],
       "directions": [
         {
@@ -112,7 +140,13 @@
     {
       "name": "Siebel1112",
       "description": "You are in Siebel 1112.  There is space for two code reviews in this room.",
-      "items": ["USB-C connector", "grading rubric"],
+      "items": [
+        {
+          "name": "night sword",
+          "damage": "30.0"
+
+        }
+      ],
       "monstersInRoom": ["Drogon"],
       "directions": [
         {
@@ -123,8 +157,7 @@
     },
     {
       "name": "SiebelEastHallway",
-      "description": "You are in the east hallway.  You can see Einstein Bros' Bagels and a stairway.",
-      "items": ["bagel", "coffee"],
+      "description": "You are in the east hallway.  You can see Einstein Bros' Bagels and a stairway.", 
       "monstersInRoom": ["Joker"],
       "directions": [
         {
@@ -154,7 +187,12 @@
     {
       "name": "SiebelBasement",
       "description": "You are in the basement of Siebel.  You see tables with students working and door to computer labs.",
-      "items": ["pencil"],
+      "items": [
+        {
+          "name": "super singh",
+          "damage": "50.0"
+        }
+      ],
       "monstersInRoom": ["Shrek","Joker","Penguin","Thanos","Drogon"],
       "directions": [
         {
