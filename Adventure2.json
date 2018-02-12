@@ -6,13 +6,13 @@
           "name": "Demagorgon",
           "attack": "10.0",
           "defense": "20.0",
-          "health": "300"
+          "health": "100"
       },
       {
         "name": "Drogon",
         "attack": "20.0",
         "defense": "30.0",
-        "health": "300"
+        "health": "100"
       },
       {
         "name": "Shrek",
@@ -30,13 +30,13 @@
         "name": "Penguin",
         "attack": "10.0",
         "defense": "20.0",
-        "health": "150"
+        "health": "100"
       },
       {
         "name": "Thanos",
         "attack": "50.0",
         "defense": "20.0",
-        "health": "200"
+        "health": "100"
       },
       {
         "name": "Joker",
