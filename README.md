@@ -31,23 +31,23 @@
     1. Extract the CreditCardProvider.zip file in your preferred location.
 
     2. Open the command line in the extracted direcotry and Compile CreditCardProvider.java with
-    ```
+    ```shell
     javac CreditCardProvider.java
     ```
 
     3. Run CrediCardProvider with either:
-    ```
+    ```shell
     java CreditCardProvider inputFile.txt
     ```
     or
-    ```
+    ```shell
     java CreditCardProvider
     ```
 
     4. You can also run the tests provided with JUnit, to run the tests use the following commands:
-    ```
+    ```shell
     javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar CreditCardProviderTests.java
     ```
-    ```
+    ```shell
     java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore CreditCardProviderTests
     ```
