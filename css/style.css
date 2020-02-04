@@ -1,10 +1,10 @@
 body {
   font-family: "Open Sans", Arial, sans-serif;
-  font-weight: 400;
-  font-size: 15px;
+  font-weight: 300;
+  font-size: 20px;
   line-height: 1.8;
-  color: #b3b3b3;
-  background: #fff;
+  color: #d8d8d8;
+  background: #100d22;
 }
 
 a {
@@ -19,7 +19,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-  color: #000;
+  color: #d8d8d8;
   font-family: "Playfair Display", times, serif;
 }
 
@@ -238,7 +238,7 @@ body.offcanvas-open .site-wrap {
   right: 20px;
   text-transform: uppercase;
   letter-spacing: .1em;
-  font-size: 13px;
+  font-size: 18px;
   top: 20px;
   color: #000;
 }
